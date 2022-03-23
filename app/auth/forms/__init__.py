@@ -2,6 +2,8 @@ from flask_wtf import FlaskForm
 from wtforms import validators
 from wtforms.fields import *
 
+# print program
+print("Hello")
 
 class login_form(FlaskForm):
     """ Login Form """
