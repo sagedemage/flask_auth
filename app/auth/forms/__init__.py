@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import validators
 from wtforms.fields import *
 
-
+# test
 class login_form(FlaskForm):
     """ Login Form """
     email = EmailField('Email Address', [
