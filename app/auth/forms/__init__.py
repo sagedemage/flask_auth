@@ -3,6 +3,9 @@ from wtforms import validators
 from wtforms.fields import *
 
 # test
+print("Hello")
+
+
 class login_form(FlaskForm):
     """ Login Form """
     email = EmailField('Email Address', [
