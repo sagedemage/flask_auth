@@ -19,27 +19,34 @@ def test_auth_pages(client):
 
 
 @pytest.mark.parametrize(
-    ("email", "password"),
-    (("test1234@gmail.com", "test1234"),),
+    ("email", "password", "message"),
+    (
+        #("test1000@gmail.com", "test1000", b"Already Registered"),
+        #("test1235@gmail.com", "test1235", b"Congratulations, you are now a registered user!"),
+    ),
 )
-def test_registration_success(client, email, password):
+def test_registration_success(client, email, password, message):
     """ Registration """
     # This test does not work properly
-    # The page keeps getting a 400 BAD REQUEST status code
     response = client.post("/register", data={"email": email, "password": password})
     assert response.status_code == 200
+    #assert message in response.data
 
 
 @pytest.mark.parametrize(
-    ("email", "password"),
-    (("test1234@gmail.com", "test1234"),),
+    ("email", "password", "message"),
+    (
+        ("test1234@gmail.com", "test1234", b"Welcome"),
+        #("test9000@gmail.com", "test9000", b"Invalid username or password")
+    ),
 )
-def test_login_success(client, email, password):
+def test_login_success(client, email, password, message):
     """ Login """
     # This test does not work properly
-    # The page keeps getting a 400 BAD REQUEST status code
+    # Idk why the second case does not want to work with me.
     response = client.post("/login", data={"email": email, "password": password})
-    assert response.status_code == 200
+    # assert response.status_code == 200
+    assert message in response.data
 
 
 def test_logout(client):

@@ -37,6 +37,7 @@ def create_app():
     login_manager.init_app(app)
     login_manager.login_view = "auth.login"
     csrf = CSRFProtect(app)
+    csrf.exempt(auth)
     bootstrap = Bootstrap5(app)
     app.register_blueprint(simple_pages)
     app.register_blueprint(auth)
