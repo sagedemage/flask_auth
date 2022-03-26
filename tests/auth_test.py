@@ -37,7 +37,7 @@ def test_registration_success(client, email, password, message):
     ("email", "password", "message"),
     (
         ("test1234@gmail.com", "test1234", b"Welcome"),
-        #("test9000@gmail.com", "test9000", b"Invalid username or password")
+        #("test9000@gmail.com", "test9000", b"Invalid username or password"),
     ),
 )
 def test_login_success(client, email, password, message):
