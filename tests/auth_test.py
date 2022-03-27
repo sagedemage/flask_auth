@@ -1,7 +1,6 @@
 """This test the homepage"""
 import pytest
-from flask import g, session
-
+from flask import request
 
 def test_request_main_menu_links(client):
     """This makes the index page"""
@@ -19,34 +18,41 @@ def test_auth_pages(client):
 
 
 @pytest.mark.parametrize(
-    ("email", "password", "message"),
+    ("email", "password", "confirm", "route"),
     (
-        #("test1000@gmail.com", "test1000", b"Already Registered"),
-        #("test1235@gmail.com", "test1235", b"Congratulations, you are now a registered user!"),
+        # Already Registered
+        ("test1000@gmail.com", "test1000", "test1000", "/register"),
+        # Bad Password
+        ("test3000@gmail.com", "test3000", "test4000", "/register"),
+        # Successful Registration
+        ("test1235@gmail.com", "test1235", "test1235", "/login"),
+
     ),
 )
-def test_registration_success(client, email, password, message):
+def test_registration_success(client, email, password, confirm, route):
     """ Registration """
     # This test does not work properly
-    response = client.post("/register", data={"email": email, "password": password})
-    assert response.status_code == 200
-    #assert message in response.data
+    response = client.post("/register", data={"email": email, "password": password, "confirm": confirm},
+                           follow_redirects=True)
+    assert response.request.path == route
 
 
 @pytest.mark.parametrize(
-    ("email", "password", "message"),
+    ("email", "password", "route"),
     (
-        ("test1234@gmail.com", "test1234", b"Welcome"),
-        #("test9000@gmail.com", "test9000", b"Invalid username or password"),
+        # bad password
+        ("test1000@gmail.com", "test9000", "/login"),
+        # bad email
+        ("test9191@gmail.com", "test1000", "/login"),
+        # successful login
+        ("test1000@gmail.com", "test1000", "/dashboard"),
     ),
 )
-def test_login_success(client, email, password, message):
+def test_login(client, email, password, route):
     """ Login """
     # This test does not work properly
-    # Idk why the second case does not want to work with me.
-    response = client.post("/login", data={"email": email, "password": password})
-    # assert response.status_code == 200
-    assert message in response.data
+    response = client.post("/login", data={"email": email, "password": password}, follow_redirects=True)
+    assert response.request.path == route
 
 
 def test_logout(client):

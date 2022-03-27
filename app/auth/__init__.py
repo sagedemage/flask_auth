@@ -17,14 +17,14 @@ def login():
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user is None or not user.check_password(form.password.data):
-            flash('Invalid username or password')
+            flash("Invalid username or password")
             return redirect(url_for('auth.login'))
         else:
             user.authenticated = True
             db.session.add(user)
             db.session.commit()
             login_user(user)
-            flash("Welcome")
+            flash("Welcome to the dashboard")
             return redirect(url_for('auth.dashboard'))
     return render_template('login.html', form=form)
 
