@@ -1,6 +1,10 @@
 """This test the homepage"""
 import pytest
-from flask import request
+from flask import request, redirect, session
+from flask import g
+from flask_login import current_user, login_user
+from app.db.models import User
+
 
 def test_request_main_menu_links(client):
     """This makes the index page"""
@@ -17,42 +21,45 @@ def test_auth_pages(client):
     assert client.get("/login").status_code == 200
 
 
-@pytest.mark.parametrize(
-    ("email", "password", "confirm", "route"),
-    (
-        # Already Registered
-        ("test1000@gmail.com", "test1000", "test1000", "/register"),
-        # Bad Password
-        ("test3000@gmail.com", "test3000", "test4000", "/register"),
-        # Successful Registration
-        ("test1235@gmail.com", "test1235", "test1235", "/login"),
+def test_registration_works(client):
+    response = client.post("/register", data={"email": "test1000@gmail.com",
+                                              "password": "test1000", "confirm": "test1000"})
+    assert response.headers["Location"] == "http://localhost/login"
 
-    ),
-)
-def test_registration_success(client, email, password, confirm, route):
+
+def test_registration_success(client):
     """ Registration """
     # This test does not work properly
-    response = client.post("/register", data={"email": email, "password": password, "confirm": confirm},
-                           follow_redirects=True)
-    assert response.request.path == route
+    # Already Registered
+    response = client.post("/register", data={"email": "test1000@gmail.com", "password": "test1000",
+                                              "confirm": "test1000"}, follow_redirects=True)
+    assert b"Already Registered" in response.data
+    # Skip bad Email
+    # Bad password
+    response = client.post("/register", data={"email": "test2000@gmail.com", "password": "test2000",
+                                              "confirm": "test2001"}, follow_redirects=True)
+    assert b"Passwords must match" in response.data
+    # Successful Registration (Good password)
+    response = client.post("/register", data={"email": "test2000@gmail.com", "password": "test2000",
+                                              "confirm": "test2000"}, follow_redirects=True)
+    assert b"Congratulations, you are now a registered user!" in response.data
 
 
-@pytest.mark.parametrize(
-    ("email", "password", "route"),
-    (
-        # bad password
-        ("test1000@gmail.com", "test9000", "/login"),
-        # bad email
-        ("test9191@gmail.com", "test1000", "/login"),
-        # successful login
-        ("test1000@gmail.com", "test1000", "/dashboard"),
-    ),
-)
-def test_login(client, email, password, route):
+def test_login(client):
     """ Login """
     # This test does not work properly
-    response = client.post("/login", data={"email": email, "password": password}, follow_redirects=True)
-    assert response.request.path == route
+    # Bad password
+    response = client.post("/login", data={"email": "test1000@gmail.com", "password": "test9000"},
+                           follow_redirects=True)
+    assert b"Invalid email or password" in response.data
+    # Bad email
+    response = client.post("/login", data={"email": "test9000@gmail.com", "password": "test1000"},
+                           follow_redirects=True)
+    assert b"Invalid email or password" in response.data
+    # Successful login
+    response = client.post("/login", data={"email": "test1000@gmail.com", "password": "test1000"},
+                           follow_redirects=True)
+    assert b"Welcome to the dashboard" in response.data
 
 
 def test_logout(client):
