@@ -11,29 +11,29 @@
 This is the flask web application for Project 2.
 
 ## Setting up the docker container of the web applicaiton
-Build the docker container
+Build the docker container:
 ````
 docker-compose build
 ````
-Start the docker container
+Start the docker container:
 ````
 docker-compose up -d
 ````
-To access the docker container shell
+To access the docker container shell:
 ````
 docker exec -it $(docker ps -q) /bin/bash
 ````
 
 ## Unit testing the web application
-Access the docker container shell
+Access the docker container shell:
 ````
 docker exec -it $(docker ps -q) /bin/bash
 ````
-Remove the database with data if it has data in it.
+Remove the database with data if it has data in it:
 ````
 rm database/db.sqlite
 ````
-Then create a new empty database
+Then create a new empty database:
 ````
 flask create-db
 ````
