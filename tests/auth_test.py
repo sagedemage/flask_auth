@@ -1,9 +1,5 @@
 """This test the homepage"""
 import pytest
-from flask import request, redirect, session
-from flask import g
-from flask_login import current_user, login_user
-from app.db.models import User
 
 
 def test_request_main_menu_links(client):
