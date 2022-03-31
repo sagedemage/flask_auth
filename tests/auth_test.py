@@ -20,27 +20,45 @@ def test_auth_pages(client):
 def test_registration_redirects_to_the_login_page(client):
     response = client.post("/register", data={"email": "test1000@gmail.com",
                                               "password": "test1000", "confirm": "test1000"})
-    assert response.headers["Location"] == "http://localhost/login"
+    assert response.headers["Location"] == "/login"
 
 
 def test_login_redirects_to_the_dashboard_page(client):
     response = client.post("/login", data={"email": "test1000@gmail.com", "password": "test1000"})
-    assert response.headers["Location"] == "http://localhost/dashboard"
+    assert response.headers["Location"] == "/dashboard"
+
+
+def test_check_form_validates_email_and_password(client):
+    """ Ensure that the login and registration page
+    have email and password requirement"""
+
+    # Register
+    response = client.get("/register")
+    # Bad email (Test 3)
+    # -> check that email is required for the input element
+    assert b"id=\"email\" name=\"email\" required type=\"email\"" in response.data
+    # Bad password - does not meet criteria (Test 5)
+    # check that password is required, maxlength is 35, and minlength is 6 for the input element
+    assert b"id=\"password\" maxlength=\"35\" minlength=\"6\" " \
+           b"name=\"password\" required type=\"password\"" in response.data
+
+    # Login
+    response = client.get("/login")
+    # check that email is required for the input element
+    assert b"id=\"email\" name=\"email\" required type=\"email\"" in response.data
+    # check that password is required, maxlength is 35, and minlength is 6 for the input element
+    assert b"id=\"password\" maxlength=\"35\" minlength=\"6\" " \
+           b"name=\"password\" required type=\"password\"" in response.data
 
 
 def test_registration_success(client):
     """ Registration """
-    # Bad password - does not meet criteria (Test 5)
+    # Password Confirmation (Test 4)
     response = client.post("/register", data={"email": "test2000@gmail.com", "password": "test2000",
                                               "confirm": "test2001"}, follow_redirects=True)
     assert b"Passwords must match" in response.data
 
-    # Bad email (Test 3)
-    # Having a bad Email check will not work since the form ensures that
-    # the email the user inputs is formatted properly , and it does not use
-    # flash to display the message
-
-    # Successful Registration and Password Confirmation (Test 4 and 8)
+    # Successful Registration (Test 8)
     response = client.post("/register", data={"email": "test2000@gmail.com", "password": "test2000",
                                               "confirm": "test2000"}, follow_redirects=True)
     assert b"Congratulations, you are now a registered user!" in response.data
@@ -86,4 +104,4 @@ def test_allow_access_to_dashboard(client):
     # allowing access to the dashboard for logged in users (Test 10)
     response = client.post("/login", data={"email": "test1000@gmail.com",
                                               "password": "test1000", "confirm": "test1000"})
-    assert response.headers["Location"] == "http://localhost/dashboard"
+    assert response.headers["Location"] == "/dashboard"
