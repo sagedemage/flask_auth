@@ -30,23 +30,28 @@
         let passwordField = document.getElementById("password");
         let letter = document.getElementById("letter");
         let lowerCase = 0;
+        //let lowerCase = new Observable(0);
+        // Using the onChange event
         let upperCase = 0;
         let num = 0;
         let progress_bar = document.getElementById("p-bar");
 
         function ModifyProgressBar(current_width) {
+            /* Increase and Decrease progress bar */
             let width_string_new_value = current_width.toString();
             let new_width_value = width_string_new_value.concat("%");
             progress_bar.style.width = new_width_value;
         }
 
         passwordField.onfocus = function () {
+            /* Add effect on the password field when it is on focus */
             let message = document.getElementById("message");
             message.style.display = "block";
             message.style.border = "1px solid";
         }
 
         passwordField.onkeyup = function () {
+            /* Validate the password on key up */
             // Validate lowercase letters
             let lowerCaseLetters = /[a-z]/g;
             let upperCaseLetters = /[A-Z]/g;
