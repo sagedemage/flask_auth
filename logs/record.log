@@ -1,0 +1,454 @@
+2022-03-29 16:35:29,924 INFO app Thread-3 : Info level log
+2022-03-29 16:35:29,925 WARNING app Thread-3 : Warning level log
+2022-03-29 16:35:30,175 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 16:35:30] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:35:30,212 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 16:35:30] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:48:14,277 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 16:48:14] "GET /about HTTP/1.1" 200 -
+2022-03-29 16:48:15,123 INFO app Thread-4 : Info level log
+2022-03-29 16:48:15,123 WARNING app Thread-4 : Warning level log
+2022-03-29 16:48:15,130 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 16:48:15] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:48:15,153 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 16:48:15] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:48:16,463 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 16:48:16] "GET /dashboard HTTP/1.1" 200 -
+2022-03-29 16:48:17,757 INFO app Thread-5 : Info level log
+2022-03-29 16:48:17,758 WARNING app Thread-5 : Warning level log
+2022-03-29 16:48:17,765 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 16:48:17] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:48:17,788 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 16:48:17] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:52:57,256 INFO werkzeug Thread-6 : 172.29.0.1 - - [29/Mar/2022 16:52:57] "GET / HTTP/1.1" 200 -
+2022-03-29 16:53:15,833 INFO werkzeug Thread-7 : 172.29.0.1 - - [29/Mar/2022 16:53:15] "GET /welcome HTTP/1.1" 200 -
+2022-03-29 16:53:15,845 INFO werkzeug Thread-9 : 172.29.0.1 - - [29/Mar/2022 16:53:15] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-03-29 16:53:15,855 INFO werkzeug Thread-8 : 172.29.0.1 - - [29/Mar/2022 16:53:15] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-03-29 16:53:15,861 INFO werkzeug Thread-7 : 172.29.0.1 - - [29/Mar/2022 16:53:15] "[33mGET /welcome?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 404 -
+2022-03-29 16:53:15,858 INFO werkzeug Thread-10 : 172.29.0.1 - - [29/Mar/2022 16:53:15] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-29 16:53:16,472 INFO app Thread-7 : Info level log
+2022-03-29 16:53:16,473 WARNING app Thread-7 : Warning level log
+2022-03-29 16:53:16,479 INFO werkzeug Thread-7 : 172.29.0.1 - - [29/Mar/2022 16:53:16] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:53:16,501 INFO werkzeug Thread-7 : 172.29.0.1 - - [29/Mar/2022 16:53:16] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:53:36,907 INFO werkzeug Thread-10 : 172.29.0.1 - - [29/Mar/2022 16:53:36] "GET /about HTTP/1.1" 200 -
+2022-03-29 16:53:36,913 INFO werkzeug Thread-8 : 172.29.0.1 - - [29/Mar/2022 16:53:36] "GET /about HTTP/1.1" 200 -
+2022-03-29 16:53:36,918 INFO werkzeug Thread-11 : 172.29.0.1 - - [29/Mar/2022 16:53:36] "GET /about HTTP/1.1" 200 -
+2022-03-29 16:53:37,844 INFO app Thread-11 : Info level log
+2022-03-29 16:53:37,844 WARNING app Thread-11 : Warning level log
+2022-03-29 16:53:37,851 INFO werkzeug Thread-11 : 172.29.0.1 - - [29/Mar/2022 16:53:37] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:53:37,859 INFO werkzeug Thread-11 : 172.29.0.1 - - [29/Mar/2022 16:53:37] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:53:37,872 INFO werkzeug Thread-12 : 172.29.0.1 - - [29/Mar/2022 16:53:37] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:54:07,894 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:07] "GET /profile HTTP/1.1" 200 -
+2022-03-29 16:54:09,568 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:09] "GET /account HTTP/1.1" 200 -
+2022-03-29 16:54:11,231 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "GET /about HTTP/1.1" 200 -
+2022-03-29 16:54:11,815 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "GET /welcome HTTP/1.1" 200 -
+2022-03-29 16:54:11,826 INFO werkzeug Thread-14 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-29 16:54:11,836 INFO werkzeug Thread-15 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-03-29 16:54:11,837 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "[33mGET /welcome?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 404 -
+2022-03-29 16:54:11,840 INFO werkzeug Thread-16 : 172.29.0.1 - - [29/Mar/2022 16:54:11] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-03-29 16:54:12,663 INFO app Thread-13 : Info level log
+2022-03-29 16:54:12,663 WARNING app Thread-13 : Warning level log
+2022-03-29 16:54:12,669 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:12] "GET /users HTTP/1.1" 200 -
+2022-03-29 16:54:12,678 INFO werkzeug Thread-13 : 172.29.0.1 - - [29/Mar/2022 16:54:12] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:54:12,692 INFO werkzeug Thread-14 : 172.29.0.1 - - [29/Mar/2022 16:54:12] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:54:12,700 INFO werkzeug Thread-17 : 172.29.0.1 - - [29/Mar/2022 16:54:12] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 16:54:13,600 INFO werkzeug Thread-18 : 172.29.0.1 - - [29/Mar/2022 16:54:13] "GET /dashboard HTTP/1.1" 200 -
+2022-03-29 17:00:11,742 INFO werkzeug Thread-19 : 172.29.0.1 - - [29/Mar/2022 17:00:11] "GET /dashboard HTTP/1.1" 200 -
+2022-03-29 17:04:27,278 INFO app Thread-20 : Info level log
+2022-03-29 17:04:27,279 WARNING app Thread-20 : Warning level log
+2022-03-29 17:04:27,288 INFO werkzeug Thread-20 : 172.29.0.1 - - [29/Mar/2022 17:04:27] "GET /users HTTP/1.1" 200 -
+2022-03-29 17:04:27,296 INFO werkzeug Thread-20 : 172.29.0.1 - - [29/Mar/2022 17:04:27] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 17:04:27,443 INFO werkzeug Thread-21 : 172.29.0.1 - - [29/Mar/2022 17:04:27] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-29 17:04:28,781 INFO werkzeug Thread-22 : 172.29.0.1 - - [29/Mar/2022 17:04:28] "GET /about HTTP/1.1" 200 -
+2022-03-29 17:04:30,250 INFO werkzeug Thread-22 : 172.29.0.1 - - [29/Mar/2022 17:04:30] "GET /welcome HTTP/1.1" 200 -
+2022-03-29 17:04:30,259 INFO werkzeug Thread-22 : 172.29.0.1 - - [29/Mar/2022 17:04:30] "[33mGET /welcome?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 404 -
+2022-03-29 17:04:30,264 INFO werkzeug Thread-25 : 172.29.0.1 - - [29/Mar/2022 17:04:30] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-29 17:04:30,272 INFO werkzeug Thread-24 : 172.29.0.1 - - [29/Mar/2022 17:04:30] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-03-29 17:04:30,274 INFO werkzeug Thread-23 : 172.29.0.1 - - [29/Mar/2022 17:04:30] "[36mGET /welcome?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-03-29 17:04:31,115 INFO werkzeug Thread-22 : 172.29.0.1 - - [29/Mar/2022 17:04:31] "GET /about HTTP/1.1" 200 -
+2022-03-29 17:16:47,852 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
+2022-03-29 17:16:47,854 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-29 17:17:21,609 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 17:17:21] "GET / HTTP/1.1" 200 -
+2022-03-29 17:17:24,807 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-29 17:17:24,830 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:24] "GET /login HTTP/1.1" 200 -
+2022-03-29 17:17:27,996 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:27] "GET /register HTTP/1.1" 200 -
+2022-03-29 17:17:33,625 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:33] "GET /login HTTP/1.1" 200 -
+2022-03-29 17:17:34,208 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:34] "GET /register HTTP/1.1" 200 -
+2022-03-29 17:17:34,910 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:34] "GET /login HTTP/1.1" 200 -
+2022-03-29 17:17:35,508 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 17:17:35] "GET /register HTTP/1.1" 200 -
+2022-03-29 17:47:32,781 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
+2022-03-29 17:47:32,784 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-29 17:48:00,112 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
+2022-03-29 17:48:00,114 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-29 18:11:40,777 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 18:11:40] "GET / HTTP/1.1" 200 -
+2022-03-29 19:04:00,262 INFO werkzeug Thread-4 : 172.29.0.1 - - [29/Mar/2022 19:04:00] "GET / HTTP/1.1" 200 -
+2022-03-29 19:04:02,273 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 19:04:02] "GET /register HTTP/1.1" 200 -
+2022-03-29 19:04:11,973 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 19:04:11] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-29 19:04:11,995 INFO werkzeug Thread-5 : 172.29.0.1 - - [29/Mar/2022 19:04:11] "GET /login HTTP/1.1" 200 -
+2022-03-29 19:33:47,025 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
+2022-03-29 19:33:47,027 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-29 19:35:24,555 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
+2022-03-29 19:35:24,556 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-29 19:35:34,722 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 19:35:34] "GET / HTTP/1.1" 200 -
+2022-03-31 22:28:55,989 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.2:5000 (Press CTRL+C to quit)
+2022-03-31 22:28:55,992 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:29:08,182 INFO werkzeug Thread-3 : 172.22.0.1 - - [31/Mar/2022 22:29:08] "GET / HTTP/1.1" 200 -
+2022-03-31 22:29:08,439 INFO werkzeug Thread-3 : 172.22.0.1 - - [31/Mar/2022 22:29:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-31 22:33:05,132 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-03-31 22:33:05,134 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:33:16,813 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:16] "GET / HTTP/1.1" 200 -
+2022-03-31 22:33:16,962 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-31 22:33:23,486 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:23] "GET /register HTTP/1.1" 200 -
+2022-03-31 22:33:51,432 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-31 22:33:51,452 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:51] "GET /login HTTP/1.1" 200 -
+2022-03-31 22:33:56,235 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-31 22:33:56,264 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:56] "GET /dashboard HTTP/1.1" 200 -
+2022-03-31 22:33:59,349 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-31 22:33:59,363 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:33:59] "GET /login HTTP/1.1" 200 -
+2022-03-31 22:34:50,251 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:34:50] "GET /register HTTP/1.1" 200 -
+2022-03-31 22:37:06,014 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-03-31 22:37:06,086 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:37:13,816 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-03-31 22:37:13,920 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:37:24,609 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-03-31 22:37:24,688 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:38:36,652 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-03-31 22:38:36,656 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:40:16,522 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:40:16,653 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:41:09,355 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:41:09,455 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:42:13,490 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:42:13,552 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:42:43,806 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:42:43,890 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:43:49,702 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:43:49,781 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:43:57,610 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:43:57,698 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:45:06,110 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:45:06] "GET / HTTP/1.1" 200 -
+2022-03-31 22:45:06,406 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:45:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-31 22:45:09,354 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:45:09] "GET /login HTTP/1.1" 200 -
+2022-03-31 22:45:19,685 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:45:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-31 22:45:19,696 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:45:19] "GET /login HTTP/1.1" 200 -
+2022-03-31 22:46:21,612 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-03-31 22:46:21,725 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:47:19,133 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-03-31 22:47:19,197 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:48:20,147 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:48:20] "GET /register HTTP/1.1" 200 -
+2022-03-31 22:48:59,949 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:49:00,018 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:49:26,748 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:49:26,845 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:49:46,992 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:49:47,099 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:49:50,068 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:49:50,178 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:49:59,114 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:49:59,185 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:51:10,370 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:51:10,440 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:52:31,293 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/auth/forms/__init__.py', reloading
+2022-03-31 22:52:31,346 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:52:56,375 INFO werkzeug Thread-3 : 172.20.0.1 - - [31/Mar/2022 22:52:56] "GET /register HTTP/1.1" 200 -
+2022-03-31 22:53:19,514 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:53:19,671 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:55:24,101 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:55:24,190 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:56:43,729 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:56:43,789 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:59:03,311 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:59:03,388 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 22:59:37,150 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 22:59:37,219 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:02:46,229 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:02:46,305 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:03:50,406 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:03:50,469 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:04:02,463 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:04:02,513 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:04:50,805 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:04:50,870 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:06:42,034 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:06:42,145 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:07:27,032 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:07:27,082 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:07:42,527 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:07:42,591 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-31 23:09:29,013 INFO werkzeug MainThread :  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-03-31 23:09:29,086 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-08 15:09:27,024 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-08 15:09:27,027 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-08 15:10:03,260 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 15:10:03] "GET / HTTP/1.1" 200 -
+2022-04-08 15:10:03,709 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 15:10:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-08 15:10:05,605 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 15:10:05] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:10:06,215 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 15:10:06] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:17:39,692 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:17:39] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:17:46,241 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:17:46] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:18:00,488 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:18:00] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:18:12,238 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:18:12] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:18:22,101 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:18:22] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:19:05,918 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:19:05] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:19:12,449 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:19:12] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:19:25,796 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:19:25] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:22:17,259 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:22:17] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:22:57,784 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:22:57] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:27:09,800 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:27:09] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:27:38,217 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:27:38] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:27:47,682 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:27:47] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:28:14,742 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:28:14] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:30:06,092 INFO werkzeug Thread-5 : 172.20.0.1 - - [08/Apr/2022 15:30:06] "GET / HTTP/1.1" 200 -
+2022-04-08 15:30:07,229 INFO werkzeug Thread-6 : 172.20.0.1 - - [08/Apr/2022 15:30:07] "[33mGET /HNAP1/ HTTP/1.1[0m" 404 -
+2022-04-08 15:30:27,319 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:30:27] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:33:15,312 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:33:15] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:35:52,494 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:35:52] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:38:33,897 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:38:33] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:39:19,166 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:39:19] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:39:29,126 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:39:29] "GET /login HTTP/1.1" 200 -
+2022-04-08 15:39:38,738 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:39:38] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:41:07,391 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:41:07] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:43:27,697 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:43:27] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:32,769 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:32] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:37,205 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:37] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:37,412 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:37] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:37,598 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:37] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:37,758 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:37] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:47,527 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:47] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:50,446 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:50] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:44:50,939 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:44:50] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:04,027 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:04] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:08,533 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:08] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:19,365 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:19] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:19,736 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:19] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:19,915 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:19] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:20,086 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:20] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:20,266 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:20] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:20,450 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:20] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:45:48,581 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:45:48] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:49:55,302 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:49:55] "GET /register HTTP/1.1" 200 -
+2022-04-08 15:50:31,996 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:50:31] "POST /register HTTP/1.1" 200 -
+2022-04-08 15:51:31,864 INFO werkzeug Thread-4 : 172.20.0.1 - - [08/Apr/2022 15:51:31] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:54:30,328 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-08 16:54:30,331 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-08 16:54:35,078 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:54:35] "GET / HTTP/1.1" 200 -
+2022-04-08 16:54:35,233 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:54:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-08 16:54:39,092 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:54:39] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:54:59,810 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:54:59] "GET /register HTTP/1.1" 200 -
+2022-04-08 16:55:04,094 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:04] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:55:47,873 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:47] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:55:49,454 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:49] "GET /register HTTP/1.1" 200 -
+2022-04-08 16:55:52,655 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:52] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:55:53,031 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:53] "GET /register HTTP/1.1" 200 -
+2022-04-08 16:55:57,068 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:57] "GET /login HTTP/1.1" 200 -
+2022-04-08 16:55:59,725 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 16:55:59] "GET /register HTTP/1.1" 200 -
+2022-04-08 17:12:22,600 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-08 17:12:22,601 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-08 17:12:27,094 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:12:27] "GET / HTTP/1.1" 200 -
+2022-04-08 17:12:27,218 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:12:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-08 17:12:28,523 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:12:28] "GET /register HTTP/1.1" 200 -
+2022-04-08 17:13:57,765 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:13:57] "GET /register HTTP/1.1" 200 -
+2022-04-08 17:15:40,725 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:15:40] "GET /register HTTP/1.1" 200 -
+2022-04-08 17:15:58,452 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:15:58] "GET /register HTTP/1.1" 200 -
+2022-04-08 17:16:09,383 INFO werkzeug Thread-3 : 172.20.0.1 - - [08/Apr/2022 17:16:09] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:42:29,907 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-09 02:42:29,909 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-09 02:43:00,246 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:43:00] "GET / HTTP/1.1" 200 -
+2022-04-09 02:43:00,424 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:43:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-09 02:43:02,407 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:43:02] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:43:03,524 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:43:03] "GET /login HTTP/1.1" 200 -
+2022-04-09 02:43:03,874 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:43:03] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:46:20,571 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:46:20] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:47:20,746 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:20] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:47:51,513 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:51] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:47:53,441 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:53] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:47:54,181 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:54] "GET /login HTTP/1.1" 200 -
+2022-04-09 02:47:54,741 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:54] "GET /register HTTP/1.1" 200 -
+2022-04-09 02:47:55,119 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:55] "GET /login HTTP/1.1" 200 -
+2022-04-09 02:47:55,462 INFO werkzeug Thread-3 : 172.20.0.1 - - [09/Apr/2022 02:47:55] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:24:05,724 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-10 04:24:05,727 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-10 04:24:54,911 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-10 04:24:54,912 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-10 04:25:29,172 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:25:29] "GET / HTTP/1.1" 200 -
+2022-04-10 04:25:29,334 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:25:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-10 04:25:35,097 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:25:35] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:28:28,657 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:28:28] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:29:09,530 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:29:09] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:29:12,708 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:29:12] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:29:21,025 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:29:21] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:29:24,096 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:29:24] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:33:53,592 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:33:53] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:33:56,571 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:33:56] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:33:59,334 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:33:59] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:34:01,945 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:34:01] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:35:05,818 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:35:05] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:35:08,557 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:35:08] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:35:17,557 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:35:17] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:35:20,564 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:35:20] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:35:41,303 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:35:41] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:36:09,879 INFO werkzeug Thread-3 : 172.20.0.1 - - [10/Apr/2022 04:36:09] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:44:50,471 INFO werkzeug Thread-4 : 172.20.0.1 - - [10/Apr/2022 04:44:50] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:46:11,049 INFO werkzeug Thread-4 : 172.20.0.1 - - [10/Apr/2022 04:46:11] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:48:53,798 INFO werkzeug Thread-4 : 172.20.0.1 - - [10/Apr/2022 04:48:53] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:49:24,962 INFO werkzeug Thread-4 : 172.20.0.1 - - [10/Apr/2022 04:49:24] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:50:30,029 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:50:30] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:50:55,087 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:50:55] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:51:09,874 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:51:09] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:53:26,753 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:53:26] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:54:16,382 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:54:16] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:54:21,065 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:54:21] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:55:52,927 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:55:52] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:57:47,614 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:57:47] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:57:51,413 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:57:51] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:58:01,387 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:58:01] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:58:06,154 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:58:06] "GET /register HTTP/1.1" 200 -
+2022-04-10 04:58:18,324 INFO werkzeug Thread-5 : 172.20.0.1 - - [10/Apr/2022 04:58:18] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:05:55,717 INFO werkzeug Thread-6 : 172.20.0.1 - - [10/Apr/2022 05:05:55] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:12:38,491 INFO werkzeug Thread-7 : 172.20.0.1 - - [10/Apr/2022 05:12:38] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:15:15,780 INFO werkzeug Thread-7 : 172.20.0.1 - - [10/Apr/2022 05:15:15] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:15:51,134 INFO werkzeug Thread-7 : 172.20.0.1 - - [10/Apr/2022 05:15:51] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:21:33,766 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:21:33] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:22:54,565 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:22:54] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:23:20,776 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:23:20] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:23:45,981 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:23:45] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:26:14,655 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:26:14] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:26:27,699 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:26:27] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:28:55,348 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:28:55] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:29:34,292 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:29:34] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:29:47,923 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:29:47] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:30:49,134 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:30:49] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:30:53,768 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:30:53] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:30:57,668 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:30:57] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:30:58,010 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:30:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:30:58,165 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:30:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:31:20,668 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:31:20] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:32:52,122 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:32:52] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:33:58,806 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:33:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:35:09,021 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:35:09] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:37:03,463 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:37:03] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:40:23,717 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:40:23] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:41:06,835 INFO werkzeug Thread-8 : 172.20.0.1 - - [10/Apr/2022 05:41:06] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:51:09,957 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:51:09] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:51:18,565 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:51:18] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:51:25,821 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:51:25] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:51:31,494 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:51:31] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:52:10,185 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:52:10] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:52:15,484 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:52:15] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:53:39,204 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:53:39] "GET /register HTTP/1.1" 200 -
+2022-04-10 05:57:51,557 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 05:57:51] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:00:52,828 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:00:52] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:01:06,203 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:01:06] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:02:17,769 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:02:17] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:03:05,018 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:03:05] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:06:19,465 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:06:19] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:07:37,801 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:07:37] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:07:58,538 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:07:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:08:37,148 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:08:37] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:09:13,647 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:09:13] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:09:20,228 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:09:20] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:09:55,316 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:09:55] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:10:04,920 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:10:04] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:10:49,652 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:10:49] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:11:04,881 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:11:04] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:11:24,402 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:11:24] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:11:31,650 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:11:31] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:11:39,967 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:11:39] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:11:47,451 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:11:47] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:13:13,489 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:13:13] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:14:19,055 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:14:19] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:14:32,819 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:14:32] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:14:53,557 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:14:53] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:15:51,438 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:15:51] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:16:15,357 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:16:15] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:16:33,899 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:16:33] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:16:58,215 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:16:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:16:58,809 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:16:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:18:35,079 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:18:35] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:19:35,912 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:19:35] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:19:58,031 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:19:58] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:20:22,785 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:20:22] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:20:30,297 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:20:30] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:20:30,556 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:20:30] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:20:30,713 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:20:30] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:21:50,996 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:21:50] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:21:56,500 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:21:56] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:22:42,232 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:22:42] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:23:12,021 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:23:12] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:24:12,821 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:24:12] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:25:34,228 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:25:34] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:25:51,668 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:25:51] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:26:40,284 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:26:40] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:29:52,989 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:29:52] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:32:07,648 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:32:07] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:32:07,903 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:32:07] "GET /register HTTP/1.1" 200 -
+2022-04-10 06:33:32,675 INFO werkzeug Thread-9 : 172.20.0.1 - - [10/Apr/2022 06:33:32] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:36:07,015 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-11 00:36:07,018 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-11 00:40:22,689 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:40:22] "GET / HTTP/1.1" 200 -
+2022-04-11 00:40:22,850 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:40:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-11 00:40:27,954 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:40:27] "GET /login HTTP/1.1" 200 -
+2022-04-11 00:40:29,652 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:40:29] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:41:50,586 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:41:50] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:42:10,008 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:42:10] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:45:08,058 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:45:08] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:45:22,674 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:45:22] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:46:27,044 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:46:27] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:48:55,997 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:48:55] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:48:56,902 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:48:56] "GET /register HTTP/1.1" 200 -
+2022-04-11 00:50:23,306 INFO werkzeug Thread-3 : 172.20.0.1 - - [11/Apr/2022 00:50:23] "GET /register HTTP/1.1" 200 -
+2022-04-13 17:03:51,283 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-13 17:03:51,285 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-13 17:04:01,118 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 17:04:01] "GET / HTTP/1.1" 200 -
+2022-04-13 17:04:01,245 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 17:04:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-13 17:04:03,697 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 17:04:03] "GET /register HTTP/1.1" 200 -
+2022-04-13 17:04:27,571 INFO werkzeug Thread-4 : 172.20.0.1 - - [13/Apr/2022 17:04:27] "GET / HTTP/1.1" 200 -
+2022-04-13 17:04:27,744 INFO werkzeug Thread-4 : 172.20.0.1 - - [13/Apr/2022 17:04:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-13 17:04:29,431 INFO werkzeug Thread-4 : 172.20.0.1 - - [13/Apr/2022 17:04:29] "GET /register HTTP/1.1" 200 -
+2022-04-13 21:37:44,515 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-13 21:37:44,518 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-13 21:38:25,646 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 21:38:25] "GET / HTTP/1.1" 200 -
+2022-04-13 21:38:25,814 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 21:38:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-13 21:38:27,079 INFO werkzeug Thread-3 : 172.20.0.1 - - [13/Apr/2022 21:38:27] "GET /register HTTP/1.1" 200 -
