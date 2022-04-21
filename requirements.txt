@@ -13,3 +13,4 @@ bootstrap-flask
 Flask-WTF
 flask_sqlalchemy
 flask-login
+SQLAlchemy-serializer
