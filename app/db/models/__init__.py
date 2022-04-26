@@ -31,6 +31,7 @@ class Location(db.Model, SerializerMixin):
             'title': self.title,
             'long': self.longitude,
             'lat': self.latitude,
+            'population': self.population,
         }
 
 class User(UserMixin, db.Model):

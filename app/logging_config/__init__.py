@@ -9,9 +9,8 @@ from app.logging_config.log_formatters import RequestFormatter
 log_con = flask.Blueprint('log_con', __name__)
 
 
-#@log_con.before_app_request
-#def before_request_logging():
-
+# @log_con.before_app_request
+# def before_request_logging():
 
 
 @log_con.after_app_request
@@ -24,11 +23,6 @@ def after_request_logging(response):
         return response
     return response
 
-"""
-@log_con.before_app_first_request
-def configure_logging():
-    logging.config.dictConfig(LOGGING_CONFIG)  # issue
-"""
 
 LOGGING_CONFIG = {
     'version': 1,

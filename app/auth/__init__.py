@@ -103,14 +103,15 @@ def edit_account():
 @login_required
 @admin_required
 def browse_users():
-    current_app.logger.info('Info level log')
-    current_app.logger.warning('Warning level log')
     data = User.query.all()
     titles = [('email', 'Email'), ('registered_on', 'Registered On')]
     retrieve_url = ('auth.retrieve_user', [('user_id', ':id')])
     edit_url = ('auth.edit_user', [('user_id', ':id')])
     add_url = url_for('auth.add_user')
     delete_url = ('auth.delete_user', [('user_id', ':id')])
+
+    current_app.logger.info("Browse page loading")
+
     return render_template('browse.html', titles=titles, add_url=add_url, edit_url=edit_url, delete_url=delete_url,
                            retrieve_url=retrieve_url, data=data, User=User, record_type="Users")
 
@@ -133,6 +134,7 @@ def edit_user(user_id):
         db.session.add(user)
         db.session.commit()
         flash('User Edited Successfully', 'success')
+        current_app.logger.info("edited a user")
         return redirect(url_for('auth.browse_users'))
     return render_template('user_edit.html', form=form)
 

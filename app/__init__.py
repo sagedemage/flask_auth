@@ -14,9 +14,11 @@ from app.context_processors import utility_text_processors
 from app.db import db
 from app.db.models import User
 from app.error_handlers import error_handlers
-from app.logging_config import log_con
+from app.logging_config import log_con, LOGGING_CONFIG
 from app.simple_pages import simple_pages
 from app.map import map
+from app.db import database
+from flask_cors import CORS
 
 login_manager = flask_login.LoginManager()
 
@@ -24,6 +26,9 @@ login_manager = flask_login.LoginManager()
 def create_app():
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
+    # Change this depending on if the web app is ready or not
+    app.config["ENV"] = "development"
+
     if app.config["ENV"] == "production":
         app.config.from_object("app.config.ProductionConfig")
     elif app.config["ENV"] == "development":
@@ -45,6 +50,7 @@ def create_app():
     # load functions with web interfaces
     app.register_blueprint(simple_pages)
     app.register_blueprint(auth)
+    app.register_blueprint(database)
 
     # load functionality without a web interface
     app.register_blueprint(log_con)
@@ -54,10 +60,15 @@ def create_app():
 
     # add command function to cli commands
     app.cli.add_command(create_database)
-    app.cli.add_command(create_log_folder)
     db.init_app(app)
-
+    api_v1_cors_config = {
+        "methods": ["OPTIONS", "GET", "POST"],
+    }
+    CORS(app, resources={"/api/*": api_v1_cors_config})
     # Run once at startup
+
+    # app.config['WTF_CSRF_ENABLED'] = False
+
     return app
 
 
