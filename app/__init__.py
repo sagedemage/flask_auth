@@ -7,18 +7,21 @@ import flask_login
 from flask import Flask
 from flask_bootstrap import Bootstrap5
 from flask_wtf.csrf import CSRFProtect
+from flask_cors import CORS
 
-from app.auth import auth
-from app.cli import create_database, create_log_folder
-from app.context_processors import utility_text_processors
 from app.db import db
 from app.db.models import User
-from app.error_handlers import error_handlers
+from app.cli import create_database, create_log_folder
 from app.logging_config import log_con, LOGGING_CONFIG
+
 from app.simple_pages import simple_pages
-from app.map import map
+from app.auth import auth
 from app.db import database
-from flask_cors import CORS
+
+from app.error_handlers import error_handlers
+from app.context_processors import utility_text_processors
+
+from app.map import map
 
 login_manager = flask_login.LoginManager()
 
