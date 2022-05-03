@@ -65,10 +65,8 @@ def create_app():
         "methods": ["OPTIONS", "GET", "POST"],
     }
     CORS(app, resources={"/api/*": api_v1_cors_config})
+
     # Run once at startup
-
-    # app.config['WTF_CSRF_ENABLED'] = False
-
     return app
 
 

@@ -3,10 +3,10 @@ import os
 
 class Config(object):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    DEBUG = False
+    DEBUG = True
     TESTING = False
     SECRET_KEY = 'This is an INSECURE secret!! DO NOT use this in production!!'
-    SESSION_COOKIE_SECURE = True
+    SESSION_COOKIE_SECURE = False
     BOOTSTRAP_BOOTSWATCH_THEME = 'Simplex'
     DB_DIR = "database"
     SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(BASE_DIR, '..', DB_DIR, "db.sqlite")
@@ -18,18 +18,15 @@ class Config(object):
 
 
 class ProductionConfig(Config):
-    pass
+    DEBUG = False
+    SESSION_COOKIE_SECURE = True
 
 
 class DevelopmentConfig(Config):
-    DEBUG = True
-    SESSION_COOKIE_SECURE = False
     WTF_CSRF_ENABLED = False
 
 
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = "sqlite:///"
-    SESSION_COOKIE_SECURE = False
-    DEBUG = True
+    SQLALCHEMY_DATABASE_URI = "sqlite:///:memory:"
 
