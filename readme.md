@@ -10,6 +10,9 @@
 
 This is the flask web application for Project 2.
 
+## Environmental Variables
+Fill in the environmental variables in .env.test file
+
 ## Setting up the docker container of the web applicaiton
 Build the docker container:
 ````

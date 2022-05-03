@@ -540,3 +540,249 @@
 2022-04-14 23:19:01,597 INFO werkzeug Thread-4 : 172.20.0.1 - - [14/Apr/2022 23:19:01] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 2022-04-14 23:19:28,674 INFO werkzeug Thread-3 : 172.20.0.1 - - [14/Apr/2022 23:19:28] "GET /register HTTP/1.1" 200 -
 2022-04-14 23:19:28,733 INFO werkzeug Thread-3 : 172.20.0.1 - - [14/Apr/2022 23:19:28] "GET /static/js/password_validation.js HTTP/1.1" 200 -
+2022-04-19 23:35:57,719 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-19 23:35:57,733 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:00:26,140 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-20 18:00:26,142 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:00:37,878 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-20 18:00:37,880 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:00:48,791 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:00:48] "GET / HTTP/1.1" 200 -
+2022-04-20 18:02:00,649 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-20 18:02:00,651 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:09:30,540 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-20 18:09:30,587 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:17:21,200 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-20 18:17:21,255 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:21:12,649 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-20 18:21:12,698 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:21:58,543 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-20 18:21:58,626 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:26:33,469 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-20 18:26:33,520 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:28:06,912 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-04-20 18:28:06,914 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:28:12,408 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:12] "GET / HTTP/1.1" 200 -
+2022-04-20 18:28:14,250 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:14] "GET /about HTTP/1.1" 200 -
+2022-04-20 18:28:14,725 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:14] "GET /welcome HTTP/1.1" 200 -
+2022-04-20 18:28:15,219 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:15] "GET / HTTP/1.1" 200 -
+2022-04-20 18:28:15,645 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:15] "GET /about HTTP/1.1" 200 -
+2022-04-20 18:28:16,048 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:16] "GET / HTTP/1.1" 200 -
+2022-04-20 18:28:59,752 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:28:59] "GET / HTTP/1.1" 200 -
+2022-04-20 18:29:05,549 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:29:05] "[33mGET /locations HTTP/1.1[0m" 404 -
+2022-04-20 18:29:45,046 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:29:45] "[33mGET /locations/map HTTP/1.1[0m" 404 -
+2022-04-20 18:30:25,956 INFO werkzeug Thread-3 : 172.20.0.1 - - [20/Apr/2022 18:30:25] "[33mGET /locations/upload HTTP/1.1[0m" 404 -
+2022-04-20 18:32:10,991 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-20 18:32:11,039 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:32:32,111 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-20 18:32:32,155 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:33:15,673 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 (Press CTRL+C to quit)
+2022-04-20 18:33:15,675 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:33:19,732 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:33:19] "GET / HTTP/1.1" 200 -
+2022-04-20 18:33:24,313 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:33:24] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:33:24,332 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:33:24] "GET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-20 18:33:24,335 INFO werkzeug Thread-4 : 172.24.0.1 - - [20/Apr/2022 18:33:24] "GET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-20 18:33:24,403 INFO werkzeug Thread-4 : 172.24.0.1 - - [20/Apr/2022 18:33:24] "GET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-20 18:33:24,420 INFO werkzeug Thread-4 : 172.24.0.1 - - [20/Apr/2022 18:33:24] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:35:14,227 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:35:14] "[32mGET /locations/upload HTTP/1.1[0m" 302 -
+2022-04-20 18:35:14,261 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:35:14] "GET /login?next=%2Flocations%2Fupload HTTP/1.1" 200 -
+2022-04-20 18:35:22,159 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:35:22] "[33mGET /location HTTP/1.1[0m" 404 -
+2022-04-20 18:35:24,628 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:35:24] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:35:24,646 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:35:24] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:35:24,647 INFO werkzeug Thread-5 : 172.24.0.1 - - [20/Apr/2022 18:35:24] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:35:24,665 INFO werkzeug Thread-6 : 172.24.0.1 - - [20/Apr/2022 18:35:24] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,119 INFO werkzeug Thread-7 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:26,134 INFO werkzeug Thread-7 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,135 INFO werkzeug Thread-8 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,145 INFO werkzeug Thread-9 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,164 INFO werkzeug Thread-10 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,744 INFO werkzeug Thread-11 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:26,760 INFO werkzeug Thread-11 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,762 INFO werkzeug Thread-12 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,775 INFO werkzeug Thread-13 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:26,791 INFO werkzeug Thread-14 : 172.24.0.1 - - [20/Apr/2022 18:37:26] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,025 INFO werkzeug Thread-15 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:27,041 INFO werkzeug Thread-15 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,044 INFO werkzeug Thread-16 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,057 INFO werkzeug Thread-17 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,072 INFO werkzeug Thread-18 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,201 INFO werkzeug Thread-19 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:27,217 INFO werkzeug Thread-19 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,219 INFO werkzeug Thread-20 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,231 INFO werkzeug Thread-21 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,251 INFO werkzeug Thread-22 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,388 INFO werkzeug Thread-23 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:27,403 INFO werkzeug Thread-23 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,405 INFO werkzeug Thread-24 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,414 INFO werkzeug Thread-25 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,428 INFO werkzeug Thread-26 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,584 INFO werkzeug Thread-27 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-04-20 18:37:27,599 INFO werkzeug Thread-27 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,601 INFO werkzeug Thread-28 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,612 INFO werkzeug Thread-29 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:37:27,624 INFO werkzeug Thread-30 : 172.24.0.1 - - [20/Apr/2022 18:37:27] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-20 18:38:22,906 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-20 18:38:22,952 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-20 18:38:25,996 INFO werkzeug Thread-3 : 172.24.0.1 - - [20/Apr/2022 18:38:25] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:25:21,660 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 (Press CTRL+C to quit)
+2022-04-21 02:25:21,663 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:28:38,537 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 (Press CTRL+C to quit)
+2022-04-21 02:28:38,547 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:28:46,337 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:28:46] "GET / HTTP/1.1" 200 -
+2022-04-21 02:28:46,519 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:28:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-21 02:29:37,567 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:29:37] "GET / HTTP/1.1" 200 -
+2022-04-21 02:29:46,750 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:29:46] "[32mGET /locations/upload HTTP/1.1[0m" 302 -
+2022-04-21 02:29:46,789 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:29:46] "GET /login?next=%2Flocations%2Fupload HTTP/1.1" 200 -
+2022-04-21 02:30:13,612 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:13] "GET / HTTP/1.1" 200 -
+2022-04-21 02:30:15,002 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:15] "GET /login HTTP/1.1" 200 -
+2022-04-21 02:30:19,622 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-21 02:30:19,635 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:19] "GET /login HTTP/1.1" 200 -
+2022-04-21 02:30:25,426 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-21 02:30:25,439 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:25] "GET /login HTTP/1.1" 200 -
+2022-04-21 02:30:26,938 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:26] "GET /register HTTP/1.1" 200 -
+2022-04-21 02:30:26,985 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:26] "GET /static/js/password_validation.js HTTP/1.1" 200 -
+2022-04-21 02:30:40,873 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:40] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-21 02:30:40,888 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:40] "GET /login HTTP/1.1" 200 -
+2022-04-21 02:30:45,950 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-21 02:30:45,983 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:45] "GET /dashboard HTTP/1.1" 200 -
+2022-04-21 02:30:56,818 INFO app Thread-3 : Info level log
+2022-04-21 02:30:56,818 WARNING app Thread-3 : Warning level log
+2022-04-21 02:30:56,917 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:56] "GET /users HTTP/1.1" 200 -
+2022-04-21 02:30:56,950 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:56] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-04-21 02:30:58,487 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:58] "GET /about HTTP/1.1" 200 -
+2022-04-21 02:30:59,142 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:59] "GET /welcome HTTP/1.1" 200 -
+2022-04-21 02:30:59,861 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:30:59] "GET /dashboard HTTP/1.1" 200 -
+2022-04-21 02:31:11,980 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:31:11] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:31:42,234 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:31:42] "POST /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:31:47,080 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:31:47] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:31:56,749 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:31:56] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:32:01,846 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:01] "POST /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:32:15,760 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:15] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:18,403 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:18] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:18,985 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:18] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:19,224 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:19] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:19,373 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:19] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:19,558 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:19] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:32:36,754 INFO myApp Thread-3 : None
+2022-04-21 02:32:36,799 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:36] "GET /locations/map HTTP/1.1" 200 -
+2022-04-21 02:32:40,948 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:32:40] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:34:27,174 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:34:27] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:34:32,459 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:34:32] "POST /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:34:38,787 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:34:38] "[33mGET /locations/ HTTP/1.1[0m" 404 -
+2022-04-21 02:34:42,524 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:34:42] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:38:45,756 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-21 02:38:45,821 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:38:50,102 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-21 02:38:50,152 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:39:27,622 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-21 02:39:27,681 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:39:49,685 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 (Press CTRL+C to quit)
+2022-04-21 02:39:49,686 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:40:02,232 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:40:02] "GET /locations HTTP/1.1" 200 -
+2022-04-21 02:40:05,961 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:40:05] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:40:10,213 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:40:10] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:40:10,237 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:40:10] "GET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-21 02:40:10,240 INFO werkzeug Thread-4 : 172.24.0.1 - - [21/Apr/2022 02:40:10] "GET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-21 02:40:10,282 INFO werkzeug Thread-4 : 172.24.0.1 - - [21/Apr/2022 02:40:10] "GET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-21 02:40:10,309 INFO werkzeug Thread-4 : 172.24.0.1 - - [21/Apr/2022 02:40:10] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:45:31,563 INFO werkzeug Thread-5 : 172.24.0.1 - - [21/Apr/2022 02:45:31] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:45:31,588 INFO werkzeug Thread-5 : 172.24.0.1 - - [21/Apr/2022 02:45:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:45:31,590 INFO werkzeug Thread-6 : 172.24.0.1 - - [21/Apr/2022 02:45:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:45:31,608 INFO werkzeug Thread-7 : 172.24.0.1 - - [21/Apr/2022 02:45:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:45:31,626 INFO werkzeug Thread-8 : 172.24.0.1 - - [21/Apr/2022 02:45:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:45:43,124 INFO werkzeug Thread-9 : 172.24.0.1 - - [21/Apr/2022 02:45:43] "[33mGET /locations/ HTTP/1.1[0m" 404 -
+2022-04-21 02:45:46,420 INFO werkzeug Thread-9 : 172.24.0.1 - - [21/Apr/2022 02:45:46] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:45:49,646 INFO werkzeug Thread-9 : 172.24.0.1 - - [21/Apr/2022 02:45:49] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:45:49,673 INFO werkzeug Thread-9 : 172.24.0.1 - - [21/Apr/2022 02:45:49] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:45:49,677 INFO werkzeug Thread-10 : 172.24.0.1 - - [21/Apr/2022 02:45:49] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:45:49,700 INFO werkzeug Thread-11 : 172.24.0.1 - - [21/Apr/2022 02:45:49] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:45:49,722 INFO werkzeug Thread-12 : 172.24.0.1 - - [21/Apr/2022 02:45:49] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:46:22,575 INFO werkzeug Thread-13 : 172.24.0.1 - - [21/Apr/2022 02:46:22] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:46:22,595 INFO werkzeug Thread-13 : 172.24.0.1 - - [21/Apr/2022 02:46:22] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:46:22,597 INFO werkzeug Thread-14 : 172.24.0.1 - - [21/Apr/2022 02:46:22] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:46:22,615 INFO werkzeug Thread-15 : 172.24.0.1 - - [21/Apr/2022 02:46:22] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:46:22,629 INFO werkzeug Thread-16 : 172.24.0.1 - - [21/Apr/2022 02:46:22] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:46:27,440 INFO werkzeug Thread-17 : 172.24.0.1 - - [21/Apr/2022 02:46:27] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:46:31,413 INFO werkzeug Thread-17 : 172.24.0.1 - - [21/Apr/2022 02:46:31] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:46:31,434 INFO werkzeug Thread-17 : 172.24.0.1 - - [21/Apr/2022 02:46:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:46:31,437 INFO werkzeug Thread-18 : 172.24.0.1 - - [21/Apr/2022 02:46:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:46:31,457 INFO werkzeug Thread-19 : 172.24.0.1 - - [21/Apr/2022 02:46:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:46:31,472 INFO werkzeug Thread-20 : 172.24.0.1 - - [21/Apr/2022 02:46:31] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:48:17,384 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000 (Press CTRL+C to quit)
+2022-04-21 02:48:17,385 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:48:18,199 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:48:18] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:48:18,227 INFO werkzeug Thread-3 : 172.24.0.1 - - [21/Apr/2022 02:48:18] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:48:18,230 INFO werkzeug Thread-4 : 172.24.0.1 - - [21/Apr/2022 02:48:18] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:48:18,261 INFO werkzeug Thread-5 : 172.24.0.1 - - [21/Apr/2022 02:48:18] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:48:18,290 INFO werkzeug Thread-6 : 172.24.0.1 - - [21/Apr/2022 02:48:18] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:48:21,181 INFO werkzeug Thread-7 : 172.24.0.1 - - [21/Apr/2022 02:48:21] "GET /locations/upload HTTP/1.1" 200 -
+2022-04-21 02:48:24,509 INFO werkzeug Thread-7 : 172.24.0.1 - - [21/Apr/2022 02:48:24] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-04-21 02:48:24,529 INFO werkzeug Thread-7 : 172.24.0.1 - - [21/Apr/2022 02:48:24] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-21 02:48:24,532 INFO werkzeug Thread-8 : 172.24.0.1 - - [21/Apr/2022 02:48:24] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-21 02:48:24,549 INFO werkzeug Thread-9 : 172.24.0.1 - - [21/Apr/2022 02:48:24] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:48:24,574 INFO werkzeug Thread-10 : 172.24.0.1 - - [21/Apr/2022 02:48:24] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-21 02:50:51,101 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 02:50:51,159 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:56:53,693 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 02:56:53,778 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:59:00,553 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 02:59:36,164 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:01:05,051 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:01:19,431 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:02:35,365 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:02:52,021 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:02:59,093 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:03:03,462 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/cli/__init__.py', reloading
+2022-04-21 03:03:03,535 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:05:32,001 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:05:32,106 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:06:24,795 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:06:24,862 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:06:39,448 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:06:39,503 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:06:53,820 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:06:53,895 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:07:02,138 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:07:02,233 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:09:12,035 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:09:12,202 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:09:19,383 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:09:19,439 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:09:45,991 INFO werkzeug MainThread :  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-21 03:09:46,044 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:10:43,171 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:11:11,094 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:12:14,119 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:12:28,369 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:13:06,485 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:13:20,795 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-21 03:13:36,536 INFO werkzeug MainThread :  * Restarting with stat
