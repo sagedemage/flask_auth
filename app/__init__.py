@@ -28,8 +28,10 @@ login_manager = flask_login.LoginManager()
 
 def create_app():
     """Create and configure an instance of the Flask application."""
+    # Flask app
     app = Flask(__name__)
-    # Change this depending on if the web app is ready or not
+
+    # Set the branch this project (production, testing, or development)
     app.config["ENV"] = "development"
 
     if app.config["ENV"] == "production":
