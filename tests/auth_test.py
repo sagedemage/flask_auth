@@ -1,5 +1,6 @@
 """This test the homepage"""
 import pytest
+from flask import current_app
 
 
 def test_request_main_menu_links(client):

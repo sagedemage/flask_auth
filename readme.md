@@ -1,4 +1,4 @@
-# Project 2
+# Project 3
 
 [![Production Workflow](https://github.com/sagedemage/flask_auth/actions/workflows/prod.yml/badge.svg)](https://github.com/sagedemage/flask_auth/actions/workflows/prod.yml)
 * [Production Deployment](https://flask-auth-prod.herokuapp.com/)
@@ -8,7 +8,7 @@
 
 ## About
 
-This is the flask web application for Project 2.
+This is the flask web application for Project 3.
 
 ## Environmental Variables
 Fill in the environmental variables in .env.test file
