@@ -9,7 +9,7 @@ from jinja2 import TemplateNotFound
 
 from app.db import db
 from app.db.models import Location
-from app.map.forms import csv_upload
+from app.map.forms import csv_upload, register_form
 from werkzeug.utils import secure_filename, redirect
 from flask import Response
 from flask_wtf.csrf import CSRFProtect
@@ -27,10 +27,11 @@ def browse_locations(page):
     per_page = 1000
     pagination = Location.query.paginate(page, per_page, error_out=False)
     data = pagination.items
+    add_url = url_for('map.add_location')
     delete_url = ('map.delete_location', [('location_id', ':id')])
     try:
-        return render_template('browse_locations.html', data=data, pagination=pagination, delete_url=delete_url,
-                               Location=Location, record_style="Locations")
+        return render_template('browse_locations.html', data=data, pagination=pagination, add_url=add_url,
+                               delete_url=delete_url, Location=Location, record_style="Locations")
     except TemplateNotFound:
         abort(404)
 
@@ -87,8 +88,26 @@ def location_upload():
         return render_template('upload_locations.html', form=form)
     except TemplateNotFound:
         abort(404)
-# /locations
-# /locations/<int:page>
+
+
+@map.route('/locations/new', methods=['GET', 'POST'])
+@login_required
+def add_location():
+    form = register_form()
+    if form.validate_on_submit():
+        location = Location.query.filter_by(title=form.title.data).first()
+        if location is None:
+            location = Location(title=form.title.data, longitude=form.long.data, latitude=form.lat.data,
+                                population=form.popul.data)
+            db.session.add(location)
+            current_user.locations.append(location)
+            db.session.commit()
+            flash('Congratulations, you added a location', 'success')
+            return redirect(url_for('map.browse_locations'))
+        else:
+            flash('Already Exists')
+            return redirect(url_for('map.browse_locations'))
+    return render_template('location_new.html', form=form)
 
 
 @map.route('/locations/<int:location_id>/delete', methods=['POST'])
