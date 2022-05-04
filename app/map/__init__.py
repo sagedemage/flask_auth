@@ -9,7 +9,7 @@ from jinja2 import TemplateNotFound
 
 from app.db import db
 from app.db.models import Location
-from app.map.forms import csv_upload, register_form
+from app.map.forms import csv_upload, register_form, location_edit_form
 from werkzeug.utils import secure_filename, redirect
 from flask import Response
 from flask_wtf.csrf import CSRFProtect
@@ -27,11 +27,12 @@ def browse_locations(page):
     per_page = 1000
     pagination = Location.query.paginate(page, per_page, error_out=False)
     data = pagination.items
+    edit_url = ('map.edit_location', [('location_id', ':id')])
     add_url = url_for('map.add_location')
     delete_url = ('map.delete_location', [('location_id', ':id')])
     try:
         return render_template('browse_locations.html', data=data, pagination=pagination, add_url=add_url,
-                               delete_url=delete_url, Location=Location, record_style="Locations")
+                               edit_url=edit_url, delete_url=delete_url, Location=Location, record_style="Locations")
     except TemplateNotFound:
         abort(404)
 
@@ -88,6 +89,26 @@ def location_upload():
         return render_template('upload_locations.html', form=form)
     except TemplateNotFound:
         abort(404)
+
+
+@map.route('/locations/<int:location_id>/edit', methods=['POST', 'GET'])
+@login_required
+def edit_location(location_id):
+    location = Location.query.get(location_id)
+    form = location_edit_form(obj=location)
+    if form.validate_on_submit():
+        # user.about = form.about.data
+        # user.is_admin = int(form.is_admin.data)
+        location.title = form.title.data
+        location.longitude = form.long.data
+        location.latitude = form.lat.data
+        location.population = int(form.popul.data)
+        db.session.add(location)
+        db.session.commit()
+        flash('User Edited Successfully', 'success')
+        current_app.logger.info("edited a user")
+        return redirect(url_for('map.browse_locations'))
+    return render_template('location_edit.html', form=form)
 
 
 @map.route('/locations/new', methods=['GET', 'POST'])

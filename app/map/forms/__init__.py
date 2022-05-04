@@ -12,7 +12,32 @@ class register_form(FlaskForm):
     title = StringField('Title', [
         validators.DataRequired(),
     ], description="Add location of city")
-    long = StringField('Longitude', description="longitude of city")
-    lat = StringField('Latitude', description="latitude of city")
-    popul = IntegerField('Population', description="population of the city")
+    long = StringField('Longitude', [
+        validators.DataRequired(),
+    ], description="longitude of city")
+    lat = StringField('Latitude', [
+        validators.DataRequired(),
+    ], description="latitude of city")
+    popul = IntegerField('Population', [
+        validators.DataRequired(),
+    ], description="population of the city")
+    submit = SubmitField()
+
+
+class location_edit_form(FlaskForm):
+    # about = TextAreaField('About', [validators.length(min=6, max=300)],
+    #                       description="Please add information about yourself")
+    # is_admin = BooleanField('Admin', render_kw={'value':'1'})
+    title = StringField('Title', [
+        validators.DataRequired(),
+    ], description="Add location of city")
+    long = StringField('Longitude', [
+        validators.DataRequired(),
+    ], description="longitude of city")
+    lat = StringField('Latitude', [
+        validators.DataRequired(),
+    ], description="latitude of city")
+    popul = IntegerField('Population', [
+        validators.DataRequired(),
+    ], description="population of the city")
     submit = SubmitField()
