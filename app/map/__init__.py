@@ -2,8 +2,9 @@ import csv
 import logging
 import os
 
-from flask import Blueprint, render_template, abort, url_for,current_app, jsonify
+from flask import Blueprint, render_template, abort, url_for, current_app, jsonify, flash, request
 from flask_login import current_user, login_required
+from app.auth.decorators import admin_required
 from jinja2 import TemplateNotFound
 
 from app.db import db
@@ -11,6 +12,7 @@ from app.db.models import Location
 from app.map.forms import csv_upload
 from werkzeug.utils import secure_filename, redirect
 from flask import Response
+from flask_wtf.csrf import CSRFProtect
 
 map = Blueprint('map', __name__,
                         template_folder='templates')
@@ -18,24 +20,26 @@ map = Blueprint('map', __name__,
 
 @map.route('/locations', methods=['GET'], defaults={"page": 1})
 @map.route('/locations/<int:page>', methods=['GET'])
+@login_required
+@admin_required
 def browse_locations(page):
     page = page
     per_page = 1000
     pagination = Location.query.paginate(page, per_page, error_out=False)
     data = pagination.items
+    delete_url = ('map.delete_location', [('location_id', ':id')])
     try:
-        return render_template('browse_locations.html',data=data,pagination=pagination)
+        return render_template('browse_locations.html', data=data, pagination=pagination, delete_url=delete_url,
+                               Location=Location, record_style="Locations")
     except TemplateNotFound:
         abort(404)
 
 
 @map.route('/locations_datatables/', methods=['GET'])
 def browse_locations_datatables():
-
     data = Location.query.all()
-
     try:
-        return render_template('browse_locations_datatables.html',data=data)
+        return render_template('browse_locations_datatables.html', data=data,)
     except TemplateNotFound:
         abort(404)
 
@@ -60,7 +64,7 @@ def map_locations():
         abort(404)
 
 
-@map.route('/locations/upload', methods=['POST', 'GET'])
+@map.route('/locations/upload', methods=['GET', 'POST'])
 @login_required
 def location_upload():
     form = csv_upload()
@@ -83,3 +87,16 @@ def location_upload():
         return render_template('upload_locations.html', form=form)
     except TemplateNotFound:
         abort(404)
+# /locations
+# /locations/<int:page>
+
+
+@map.route('/locations/<int:location_id>/delete', methods=['POST'])
+@login_required
+def delete_location(location_id):
+    # this function is not the problem, it is the browse_locations page issue
+    location = Location.query.get(location_id)
+    db.session.delete(location)
+    db.session.commit()
+    flash('Location Deleted', 'success')
+    return redirect(url_for('map.browse_locations'), 302)
