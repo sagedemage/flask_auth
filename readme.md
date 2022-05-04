@@ -8,7 +8,7 @@
 
 ## About
 
-This is the flask web application for Project 2.
+This is the flask web application for Project 3.
 
 ## Environmental Variables
 Fill in the environmental variables in .env.test file

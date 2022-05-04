@@ -25,9 +25,6 @@ class register_form(FlaskForm):
 
 
 class location_edit_form(FlaskForm):
-    # about = TextAreaField('About', [validators.length(min=6, max=300)],
-    #                       description="Please add information about yourself")
-    # is_admin = BooleanField('Admin', render_kw={'value':'1'})
     title = StringField('Title', [
         validators.DataRequired(),
     ], description="Add location of city")
