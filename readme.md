@@ -1,4 +1,4 @@
-# Project 2
+# Project 3
 
 [![Production Workflow](https://github.com/sagedemage/flask_auth/actions/workflows/prod.yml/badge.svg)](https://github.com/sagedemage/flask_auth/actions/workflows/prod.yml)
 * [Production Deployment](https://flask-auth-prod.herokuapp.com/)
