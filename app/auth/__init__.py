@@ -112,7 +112,6 @@ def browse_users():
 
     current_app.logger.info("Browse page loading")
 
-    # issue
     return render_template('browse.html', titles=titles, add_url=add_url, edit_url=edit_url, delete_url=delete_url,
                            retrieve_url=retrieve_url, data=data, User=User, record_type="Users")
 
